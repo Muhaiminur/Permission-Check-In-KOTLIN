@@ -79,10 +79,10 @@ class MainActivity : AppCompatActivity() {
                     var r = result_permission.text.toString()
                     for (c in grantResults.indices) {
                         r = r + PERMISSIONS[c] + " , "
-                        Log.d("size",""+c)
+                        Log.d("size", "" + c)
                     }
                     result_permission.setText("granted" + r)
-                    Log.d("size",""+grantResults.size)
+                    Log.d("size", "" + grantResults.size)
                 } else {
                     // permission denied, boo! Disable the
                     // functionality that depends on this permission.

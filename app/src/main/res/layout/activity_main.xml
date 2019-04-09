@@ -7,17 +7,22 @@
         android:layout_height="match_parent"
         tools:context=".MainActivity"
         android:orientation="vertical">
+
     <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Check Permission"
             android:id="@+id/check_permission"/>
+
     <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Give Permission"
             android:id="@+id/give_permission"/>
-    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
-              android:id="@+id/result_permission"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/result_permission"/>
 
 </LinearLayout>
